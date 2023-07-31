@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--importamos el script desde el cdn jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- importamos el script desde cdnjquery como easy-pie-chart-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Portafolio Mauricio</title>
+</head>
+<body>
+    <!-- Seccion INICIO-->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class ="contenido">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h1>Mauricio</h1>
+                </div>
+                <nav id="nav" class="responsive">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#trabajos">Trabajos</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+    
+                <!-- Icono del menu responsive-->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+    
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                </div>
+            </header>
+    
+            <div class="fila">
+                <div class="col">
+                    <h2>Desarrollador WEB</h2>
+                    <p>Titulo Profesional de Ingeneria en Informatica</p>
+                    <a href="archivos/Mauricio-Andrés-González-Vega.pdf" download="Mauricio-Andrés-González-Vega.pdf" class="boton-descargar">Descargar CV</a>
+                </div>
+                <div class="contenedor-img">
+                    <img src="imgs/ordenador-M.png" alt="">
+                </div>
+            </div>
+        </div>
+        </section>
+    </span>
+<!-- Seccion SERVICIOS-->
+<section id="servicios" class="servicios">
+    <div class="fila">
+        <div class="col">
+            <div class="card">
+                <div class="icono color1">
+                    <div class="circulo">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                </div>
+                <h3>Diseño WEB</h3>
+                <p>Conocimientos HTML5, CSS, Bootstrap, Responsive, UX y UI(Experiencia de usuario y Interfaz de usuario), Gestion de servidores web, Dominio de protocolos y estandares web.</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="icono color2">
+                    <div class="circulo">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                </div>
+                <h3>Diseño Grafico</h3>
+                <p>adobe Illustrator ,Canva, Google Fonts, Gravit Designer, Organizacion y eficiencia en el manejo de los recursos, Creativo, atento con el detalle.</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="icono color3">
+                    <div class="circulo">
+                        <i class="fa-solid fa-video"></i>
+                    </div>
+                </div>
+                <h3>animaciones</h3>
+                <p>Conocimientos en animaker.</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="col">
+            <div class="card">
+                <div class="icono color4">
+                    <div class="circulo">
+                        <i class="fa-solid fa-chart-simple"></i>
+                    </div>
+                </div>
+                <h3>administracion</h3>
+                <p>Conocimientos en procesadores de textos, hojas de calculo, plantillas de diseño, Programas de diseño de imagenes, ahrefs, Google analytics.</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="icono color5">
+                    <div class="circulo">
+                        <i class="fa-solid fa-gears"></i>
+                    </div>
+                </div>
+                <h3>Soporte Clientes</h3>
+                <p>Formulario de contacto, pagina de preguntas frecuentes, Encuesta de satisfaccion.</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <div class="icono color6">
+                    <div class="circulo">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                </div>
+                <h3>Servicios</h3>
+                <p>Conocimientos HTML5, Bootstrap</p>
+                <a href="#">Leer Mas</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Habilidades-->
+<section id="habilidades" class="habilidades">
+<div class="contenedor-habil">
+    <h2>Habilidades</h2>
+    <div class="fila">
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="98">
+                    98%
+                    </div>
+                    <h2>HTML & CSS</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="96">
+                    96%
+                    </div>
+                    <h2>Bootstrap</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="93">
+                    93%
+                    </div>
+                    <h2>Javascript</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="96">
+                    96%
+                    </div>
+                    <h2>MYSQL</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="94">
+                    94%
+                    </div>
+                    <h2>PHP</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="score">
+                <div class="box">
+                    <div class="chart" data-percent="80">
+                    80%
+                    </div>
+                    <h2>LINUX</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Seccion Trabajos-->
+<section id="trabajos "class="trabajos">
+    <h2>Mis Trabajos</h2>
+<!--Implementacion de JavaScript-->
+    <nav>
+        <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+        <a href="javascript:void(0)" class="borde" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+        <a href="javascript:void(0)" class="borde" id="programacion" onclick="verCategoria('programacion')">Programacion</a>
+        <a href="javascript:void(0)" class="borde" id="animaciones" onclick="verCategoria('animaciones')">animaciones</a>
+    </nav>
+
+    <div class="galeria">
+        <div class="item disenio">
+            <!-- Seccion de imagenes de lo ya trabajado-->
+            <img src="diseño/cv1.PNG" alt="">
+            <div class="info">
+                <h3>CV de prueba</h3>
+                <span>html</span>
+                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="prog/js1.PNG" alt="">
+            <div class="info">
+                <h3>Problema1(Sistema de VentaLibros)</h3>
+                <span>html</span><span>javascript</span>
+                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item animaciones">
+            <img src="motion/motion1.jpeg" alt="">
+            <div class="info">
+                <h3>animacion01</h3>
+                <a href="motion/animaciones01.mp4">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item disenio">
+            <img src="" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="prog/boletines1.PNG" alt="">
+            <div class="info">
+                <h3>Boletin de Hamburguesas</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item animaciones">
+            <img src="" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item disenio">
+            <img src="" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item programacion">
+            <img src="" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+        <div class="item animaciones">
+            <img src="" alt="">
+            <div class="info">
+                <h3>Titulo del Trabajo</h3>
+                <span>html</span><span>css</span><span>javascript</span>
+                <a href="#">Ver Trabajo</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Seccion contacto-->
+<section id="contacto" class="contacto">
+<div class="contenedor-contacto">
+    <h2>Contacto</h2>
+    <div class="fila">
+        <div class="col">
+            <div class="info">
+                <h3>Email:</h3>
+                <p>evilmauri16@gmail.com</p>
+            </div>
+            <div class="info">
+                <h3>Telefono:</h3>
+                <p>+569 55555555</p>
+            </div>
+            <div class="info">
+                <h3>Pais</h3>
+                <p>Chile</p>
+            </div>
+            <div class="info">
+                <h3>Ciudad:</h3>
+                <p>Melipilla</p>
+            </div>
+        </div>
+        <div class="col">
+            <input type="text" placeholder="Nombre...">
+            <input type="text" placeholder="Correo...">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="submit" value="Enviar" class="btn">
+        </div>
+    </div>
+</div>
+</section>
+
+<footer>
+    <p>¡Creado por Mauricio Gonzalez!</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
