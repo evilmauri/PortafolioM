@@ -8,9 +8,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- importamos el script desde cdnjquery como easy-pie-chart-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!--importamos la libreria de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="estilo.css">
     <title>Portafolio Mauricio</title>
 </head>
@@ -38,9 +40,9 @@
                 </div>
     
                 <div class="redes">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.github.com/evilmauri"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mau_riitz"><i class="bi bi-instagram"></i></a>
+                    <a href="https://discord.gg/DyC9AbrY"><i class="fa-brands fa-discord"></i></a>
                 </div>
             </header>
     
@@ -51,7 +53,8 @@
                     <a href="archivos/Mauricio-Andrés-González-Vega.pdf" download="Mauricio-Andrés-González-Vega.pdf" class="boton-descargar">Descargar CV</a>
                 </div>
                 <div class="contenedor-img">
-                    <img src="imgs/ordenador-M.png" alt="">
+                    <img class="img-1" src="imgs/MauricioG..png" alt="...">
+                    <img class="img-2" src="imgs/ordenador-M.png"  alt="...">
                 </div>
             </div>
         </div>
@@ -80,7 +83,7 @@
                     </div>
                 </div>
                 <h3>Diseño Grafico</h3>
-                <p>adobe Illustrator ,Canva, Google Fonts, Gravit Designer, Organizacion y eficiencia en el manejo de los recursos, Creativo, atento con el detalle.</p>
+                <p>Adobe Illustrator ,Canva, Google Fonts, Gravit Designer, Organizacion y eficiencia en el manejo de los recursos, Creativo, atento con el detalle.</p>
                 <a href="#">Leer Mas</a>
             </div>
         </div>
@@ -91,7 +94,7 @@
                         <i class="fa-solid fa-video"></i>
                     </div>
                 </div>
-                <h3>animaciones</h3>
+                <h3>Animaciones</h3>
                 <p>Conocimientos en animaker.</p>
                 <a href="#">Leer Mas</a>
             </div>
@@ -105,7 +108,7 @@
                         <i class="fa-solid fa-chart-simple"></i>
                     </div>
                 </div>
-                <h3>administracion</h3>
+                <h3>Administración</h3>
                 <p>Conocimientos en procesadores de textos, hojas de calculo, plantillas de diseño, Programas de diseño de imagenes, ahrefs, Google analytics.</p>
                 <a href="#">Leer Mas</a>
             </div>
@@ -118,7 +121,7 @@
                     </div>
                 </div>
                 <h3>Soporte Clientes</h3>
-                <p>Formulario de contacto, pagina de preguntas frecuentes, Encuesta de satisfaccion.</p>
+                <p>Formulario de contacto, pagina de preguntas frecuentes, Encuesta de satisfacción.</p>
                 <a href="#">Leer Mas</a>
             </div>
         </div>
@@ -130,7 +133,7 @@
                     </div>
                 </div>
                 <h3>Servicios</h3>
-                <p>Conocimientos HTML5, Bootstrap</p>
+                <p>Conocimientos HTML5, Bootstrap, ReactJS, Reactstrap, React-DOM.</p>
                 <a href="#">Leer Mas</a>
             </div>
         </div>
@@ -215,18 +218,18 @@
     <nav>
         <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
         <a href="javascript:void(0)" class="borde" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
-        <a href="javascript:void(0)" class="borde" id="programacion" onclick="verCategoria('programacion')">Programacion</a>
-        <a href="javascript:void(0)" class="borde" id="animaciones" onclick="verCategoria('animaciones')">animaciones</a>
+        <a href="javascript:void(0)" class="borde" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+        <a href="javascript:void(0)" class="borde" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
     </nav>
 
     <div class="galeria">
         <div class="item disenio">
             <!-- Seccion de imagenes de lo ya trabajado-->
-            <img src="diseño/cv1.PNG" alt="">
+            <img src="diseño/tienda-react.PNG" alt="">
             <div class="info">
-                <h3>CV de prueba</h3>
-                <span>html</span>
-                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+                <h3>Tienda de Compras - React</h3>
+                <span>html</span><span>react</span><span>css</span><span>javascript</span>
+                <a href="https://www.github.com/evilmauri">Ver Proyecto</a>
             </div>
         </div>
         <div class="item programacion">
@@ -234,22 +237,22 @@
             <div class="info">
                 <h3>Problema1(Sistema de VentaLibros)</h3>
                 <span>html</span><span>javascript</span>
-                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+                <a href="https://www.github.com/evilmauri">Ver Proyecto</a>
             </div>
         </div>
         <div class="item animaciones">
             <img src="motion/motion1.jpeg" alt="">
             <div class="info">
-                <h3>animacion01</h3>
-                <a href="motion/animaciones01.mp4">Ver Trabajo</a>
+                <h3>Animación01</h3>
+                <a href="motion/animaciones01.mp4">Ver Proyecto</a>
             </div>
         </div>
         <div class="item disenio">
-            <img src="" alt="">
+            <img src="prog/E-commerce.PNG" alt="">
             <div class="info">
-                <h3>Titulo del Trabajo</h3>
-                <span>html</span><span>css</span><span>javascript</span>
-                <a href="#">Ver Trabajo</a>
+                <h3>Tienda E-commerce</h3>
+                <span>html</span><span>css</span><span>javascript</span><span>json</span>
+                <a href="https://www.github.com/evilmauri">Ver Proyecto</a>
             </div>
         </div>
         <div class="item programacion">
@@ -257,7 +260,7 @@
             <div class="info">
                 <h3>Boletin de Hamburguesas</h3>
                 <span>html</span><span>css</span><span>javascript</span>
-                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
+                <a href="https://www.github.com/evilmauri">Ver Proyecto</a>
             </div>
         </div>
         <div class="item animaciones">
@@ -265,15 +268,15 @@
             <div class="info">
                 <h3>Titulo del Trabajo</h3>
                 <span>html</span><span>css</span><span>javascript</span>
-                <a href="#">Ver Trabajo</a>
+                <a href="#">Ver Proyecto</a>
             </div>
         </div>
         <div class="item disenio">
-            <img src="" alt="">
+            <img src="diseño/cv1.PNG" alt="">
             <div class="info">
-                <h3>Titulo del Trabajo</h3>
-                <span>html</span><span>css</span><span>javascript</span>
-                <a href="#">Ver Trabajo</a>
+                <h3>CV de prueba</h3>
+                <span>html</span><span>css</span>
+                <a href="https://www.github.com/evilmauri">Ver Trabajo</a>
             </div>
         </div>
         <div class="item programacion">
@@ -281,7 +284,7 @@
             <div class="info">
                 <h3>Titulo del Trabajo</h3>
                 <span>html</span><span>css</span><span>javascript</span>
-                <a href="#">Ver Trabajo</a>
+                <a href="#">Ver Proyecto</a>
             </div>
         </div>
         <div class="item animaciones">
@@ -289,7 +292,7 @@
             <div class="info">
                 <h3>Titulo del Trabajo</h3>
                 <span>html</span><span>css</span><span>javascript</span>
-                <a href="#">Ver Trabajo</a>
+                <a href="#">Ver Proyecto</a>
             </div>
         </div>
     </div>
@@ -306,21 +309,21 @@
             </div>
             <div class="info">
                 <h3>Telefono:</h3>
-                <p>+569 55555555</p>
+                <p>+569 </p>
             </div>
             <div class="info">
-                <h3>Pais</h3>
+                <h3>Pais:</h3>
                 <p>Chile</p>
             </div>
             <div class="info">
                 <h3>Ciudad:</h3>
-                <p>Melipilla</p>
+                <p>Region Metropolitana, Melipilla.</p>
             </div>
         </div>
         <div class="col">
-            <input type="text" placeholder="Nombre...">
-            <input type="text" placeholder="Correo...">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+            <input type="text" id="name" placeholder="Nombre..." minlength="5" maxlength="20" required>
+            <input type="email" id="mail" placeholder="Correo..." required>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje" minlength="10" maxlength="70"></textarea>
             <input type="submit" value="Enviar" class="btn">
         </div>
     </div>
