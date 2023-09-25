@@ -21,7 +21,7 @@ body{
 }
 /*borde y letra*/
 .inicio .contenido{
-    max-width: 1100px;
+    max-width: 1180px;
     margin: auto;
     color: #fff;
 }
@@ -481,12 +481,11 @@ footer{
     .contacto .fila .col{
         text-align: center;
         width: 100% !important;
-    }ss
+    }
     .contacto .fila .col .info{
         float: left;
         font-size: 12px;
         width: 25%;
     }
-
 }
 

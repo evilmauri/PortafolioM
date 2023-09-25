@@ -1,4 +1,4 @@
-function cargarAnimaciones(){
+/*function cargarAnimaciones(){
     $(function(){
         $('.chart1').easyPieChart({
             size:160,
@@ -55,7 +55,7 @@ function cargarAnimaciones(){
             animate:2000,
         });
     })
-}
+}*/
 //Funcion para filtrar las categorias de los trabajos
 function verCategoria(cat){
     const items = document.getElementsByClassName("item");
@@ -79,7 +79,7 @@ function verCategoria(cat){
 }
 
 //Funcion que detecta cuando lanzar la animacion de las habilidades
-function efectoHabilidades(){
+/*function efectoHabilidades(){
     var skills = document.getElementById("habilidades");
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if (distancia_skills >= 300) {
@@ -98,7 +98,7 @@ function efectoHabilidades(){
 //detecta el scrolling para aplicar la animacion de las habilidades
 window.onscroll = function(){
     efectoHabilidades();
-}
+}*/
 
 //funcion que muestra el menu responsive
 function responsiveMenu(){
