@@ -215,6 +215,60 @@ body{
 .color6{
     background: linear-gradient(#ff5100, #ffd900);
 }
+/*efect mauricio letra*/
+/*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.contento{
+    position: center;
+}
+.contento h2{
+    color: #fff;
+    font-size: 7em;
+    position: absolute;
+    transform: translate(70%);
+}
+.contento h2:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #000cff;
+}
+.contento h2:nth-child(2){
+    color: #31607c;
+    animation: animate 5s ease-in-out;
+}
+
+@keyframes animate{
+    0%,
+    100% {
+        clip-path: polygon(
+            0% 45%,
+            16% 44%,
+            33% 50%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            0% 100%
+        );
+    }
+
+    50%{
+        clip-path: polygon(
+            0% 60%,
+            15% 65%,
+            34% 66%,
+            51% 62%,
+            67% 50%,
+            84% 45%
+        );
+    }
+}*/
+
 
 /* seccion Habilidades */
 .habilidades{
@@ -485,7 +539,7 @@ footer{
     .contacto .fila .col .info{
         float: left;
         font-size: 12px;
-        width: 25%;
+        width: 90%;
     }
 }
 
